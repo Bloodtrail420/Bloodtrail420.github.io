@@ -1,0 +1,289 @@
+body{
+    width: 100%;
+    height: 100vh; /* Pełna wysokość ekranu */
+    background: hsla(152, 100%, 50%, 1);
+
+    background: linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00FF87", endColorstr="#60EFFF", GradientType=1 ); 
+    
+    color: rgb(45, 45, 45);
+
+    font-size: 13pt;
+
+    font-family: 'Mozilla Headline', serif;
+}
+#informacje{
+    width: 3000px;
+    height: 100%;
+    font-size: 30pt;
+    font-size: 1.8em;
+    line-height: 1.6;
+    color: #f0f0f0; 
+    background: rgba(0, 0, 0, 0.6); 
+    padding: 30px 50px;
+    margin: 40px auto; 
+    max-width: 800px;
+    border-radius: 20px; 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);  
+    
+}
+header{
+  position: absolute;
+  height: 25px;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+  background-color: #001F3F;
+  font-family: 'Mozilla Headline', serif;
+  font-weight: bold;
+  font-size: 20pt;
+  color: #e9e9e9;
+  display: flex;
+}
+#label1{
+    align-items: center;
+    margin-left: 195px;
+}
+#label2{
+    margin-left: 1980px;
+}
+svg{
+    transform: scale(1);
+    transform-origin: top left;
+
+}
+/*1.
+background: hsla(210, 90%, 80%, 1);
+
+background: linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9FCCFA", endColorstr="#0974F1", GradientType=1 );
+
+2.
+background: hsla(148, 89%, 78%, 1);
+
+background: linear-gradient(90deg, hsla(148, 89%, 78%, 1) 0%, hsla(210, 81%, 22%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(148, 89%, 78%, 1) 0%, hsla(210, 81%, 22%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(148, 89%, 78%, 1) 0%, hsla(210, 81%, 22%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#95F9C3", endColorstr="#0B3866", GradientType=1 );
+
+3.
+background: hsla(41, 100%, 70%, 1);
+
+background: linear-gradient(90deg, hsla(41, 100%, 70%, 1) 0%, hsla(7, 76%, 47%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(41, 100%, 70%, 1) 0%, hsla(7, 76%, 47%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(41, 100%, 70%, 1) 0%, hsla(7, 76%, 47%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFCF67", endColorstr="#D3321D", GradientType=1 );
+
+4.
+background: hsla(57, 100%, 48%, 1);
+
+background: linear-gradient(90deg, hsla(57, 100%, 48%, 1) 0%, hsla(204, 84%, 66%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(57, 100%, 48%, 1) 0%, hsla(204, 84%, 66%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(57, 100%, 48%, 1) 0%, hsla(204, 84%, 66%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F4E900", endColorstr="#60B6F1", GradientType=1 );
+
+5.
+background: hsla(159, 82%, 55%, 1);
+
+background: linear-gradient(90deg, hsla(159, 82%, 55%, 1) 0%, hsla(206, 98%, 48%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(159, 82%, 55%, 1) 0%, hsla(206, 98%, 48%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(159, 82%, 55%, 1) 0%, hsla(206, 98%, 48%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2FEAA8", endColorstr="#028CF3", GradientType=1 );
+
+6.
+background: hsla(152, 100%, 50%, 1);
+
+background: linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00FF87", endColorstr="#60EFFF", GradientType=1 );
+*/
+#Back {
+    width: 6000px;
+}
+#Front {
+    width: 6000px;
+}
+#Kontener{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:20px
+}
+#srodek {
+    flex: 1;
+    text-align: center;
+
+}
+.anatomia:has(.Klatka:hover) .Klatka {
+    fill: rgb(255, 55, 61);
+    transition: 0.5s;
+}
+
+#Kontener:has(.Trapz:hover) .Trapz {
+    fill: rgb(255, 55, 61);
+    transition: 0.5s;
+}
+
+#Kontener:has(.Brzuch:hover) .Brzuch {
+    fill: rgb(255, 55, 61);
+    transition: 0.5s;
+}
+#Kontener:has(.Boczne:hover) .Boczne{
+    fill: rgb(255, 55, 61);
+    transition: 0.5s;
+}
+#Kontener:has(.Najszerszy:hover) .Najszerszy{
+    fill: rgb(255, 55, 61);
+    transition: 0.5s;
+}
+#Kontener:has(.Czworogłowy:hover) .Czworogłowy{
+    fill: rgb(255, 55, 61);
+    transition: 0.5s;
+}
+#Kontener:has(.Piszczelowy:hover) .Piszczelowy{
+    fill: rgb(255, 55, 61);
+    transition: 0.5s;
+}
+#Kontener:has(.Łydki:hover) .Łydki{
+    fill: rgb(255, 55, 61);
+    transition: 0.5s;
+}
+#Kontener:has(.Dwugłowy:hover) .Dwugłowy{
+    fill: rgb(255, 55, 61);
+    transition: 0.5s;
+}
+#Kontener:has(.Naramienne:hover) .Naramienne{
+    fill: rgb(255, 55, 61);
+    transition: 0.5s;
+}
+#Kontener:has(.Prostownik:hover) .Prostownik{
+    fill: rgb(255, 55, 61);
+    transition: 0.5s;
+}
+#Kontener:has(.Biceps:hover) .Biceps{
+    fill: rgb(255, 55, 61);
+    transition: 0.5s;
+}
+#Kontener:has(.Triceps:hover) .Triceps{
+    fill: rgb(255, 55, 61);
+    transition: 0.5s;
+}
+#Kontener:has(.PodGrzebieniowy:hover) .PodGrzebieniowy{
+    fill: rgb(255, 55, 61);
+    transition: 0.5s;
+}
+#Kontener:has(.NadGrzebieniowy:hover) .NadGrzebieniowy{
+    fill: rgb(255, 55, 61);
+    transition: 0.5s;
+}
+#Kontener:has(.PośMał:hover) .PośMał{
+    fill: rgb(255, 55, 61);
+    transition: 0.5s;
+}
+#Kontener:has(.PośWiększy:hover) .PośWiększy{
+    fill: rgb(255, 55, 61);
+    transition: 0.5s;
+}
+#Kontener:has(.Przedramienie:hover) .Przedramienie{
+    fill: rgb(255, 55, 61);
+    transition: 0.5s;
+}
+#Kontener:has(.dłoń:hover) .dłoń{
+    fill: rgb(255, 55, 61);
+    transition: 0.5s;
+}
+#Kontener:has(.Szyja:hover) .Szyja{
+    fill: rgb(255, 55, 61);
+    transition: 0.5s;
+}
+#Kontener:has(.Kolano:hover) .Kolano{
+    fill : rgb(255, 55, 61);
+    transition: 0.5s;
+}
+#Kontener:has(.Głowa:hover) .Głowa{
+    fill:rgb(255, 55, 61);
+    transition: 0.5s;
+}
+#Kontener:has(.StawSkok:hover) .StawSkok{
+    fill: rgb(255, 55, 61);
+    transition: 0.5s;
+}
+#Kontener:has(.Stopa:hover) .Stopa{
+    fill: rgb(255, 55, 61);
+    transition: 0.5s;
+}
+    svg {
+      width: 600px;
+      height: auto;
+      display: block;
+      margin: 50px auto;
+      stroke:"#3f3f3f";
+      stroke-width:"12";
+    }
+
+#quiz {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #66ebf0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(198, 222, 60, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #333333;
+}
+
+#question {
+  margin-bottom: 20px;
+}
+
+#options {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: rgb(227, 238, 10);
+  color: #131313;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #8f8d8d;
+}
